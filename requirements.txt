@@ -1,9 +1,9 @@
 streamlit
 opencv-python-headless
-numpy
-pandas
-plotly
-Pillow
-scikit-learn
-tensorflow==2.9.0
+numpy 
+streamlit
+mediapipe 
+pandas 
+plotly.express 
+hydralit_components 
 
