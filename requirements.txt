@@ -1,6 +1,9 @@
 streamlit
-opencv-python
-plotly-express
+opencv-python-headless
 numpy
 pandas
+plotly
+Pillow
 scikit-learn
+tensorflow==2.9.0
+
