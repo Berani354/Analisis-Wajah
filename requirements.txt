@@ -1,7 +1,6 @@
-opencv-python-headless
-numpy 
 streamlit
-mediapipe
+opencv-python
+plotly-express
+numpy
 pandas
-plotly express 
-hydralit_components 
+scikit-learn
