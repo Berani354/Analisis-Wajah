@@ -1,1 +1,7 @@
-
+cv2
+numpy 
+streamlit
+mediapipe
+pandas
+plotly.express 
+hydralit_components 
