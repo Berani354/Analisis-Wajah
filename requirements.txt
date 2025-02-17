@@ -1,8 +1,0 @@
-streamlit
-opencv-python-headless
-numpy 
-mediapipe 
-pandas 
-plotly.express 
-hydralit_components 
-
