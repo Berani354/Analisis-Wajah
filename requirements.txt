@@ -1,7 +1,0 @@
-mediapipe==0.10.21
-numpy==1.26.3
-opencv_python==4.11.0.86
-pandas==2.2.3
-plotly==6.0.0
-streamlit==1.42.0
-streamlit_option_menu==0.4.0
