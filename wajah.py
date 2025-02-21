@@ -249,15 +249,16 @@ def main():
 
         # Menampilkan gambar di bagian bawah sidebar
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
-        image_path = "images/analisis_wajah.png"
+        image_path = "images/analisis wajah.png"
         st.image(image_path, caption="Analisis Wajah", use_column_width=True),
         st.markdown('</div>', unsafe_allow_html=True)
+        
 
     st.title("Selamat Datang di Aplikasi Analisis Ekspresi Wajah")
 
     # **Menampilkan logo hanya di halaman Home**
     if menu_id == "Home":
-        logo_path ="images/logo_udw.png"
+        logo_path ="images/logo udw.png"
         try:
             st.image(logo_path, caption="Logo Universitas Dharma Wacana", use_container_width=True)
         except Exception:
