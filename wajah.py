@@ -248,7 +248,8 @@ def main():
 
         # Menampilkan gambar di bagian bawah sidebar
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
-        st.image("C:/Users/LENOVO/Desktop/Analisis_Wajah/buatkan gambar ai tentang analisis wajah.png", 
+        image_path = os.path.join("images", "analisis_wajah.png"),
+        st.image(image_path, caption="Analisis Wajah", use_column_width=True),
                  caption="Gambar di bawah", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
