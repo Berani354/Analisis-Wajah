@@ -249,11 +249,10 @@ def main():
 
         # Menampilkan gambar di bagian bawah sidebar
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
-        image_path = "images/analisis wajah.png"
-        st.image(image_path, caption="Analisis Wajah", use_container_width=True),
-        st.empty()
+        st.image("images/analisis wajah.png", 
+                 caption="Gambar di bawah", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
-        
+
 
     st.title("Selamat Datang di Aplikasi Analisis Ekspresi Wajah")
 
