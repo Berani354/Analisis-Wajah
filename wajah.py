@@ -250,7 +250,6 @@ def main():
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
         image_path = os.path.join("images", "analisis_wajah.png"),
         st.image(image_path, caption="Analisis Wajah", use_column_width=True),
-                 caption="Gambar di bawah", use_container_width=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
     st.title("Selamat Datang di Aplikasi Analisis Ekspresi Wajah")
