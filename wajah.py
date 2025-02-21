@@ -4,6 +4,7 @@ import streamlit as st
 import mediapipe as mp
 import pandas as pd
 import plotly.express as px
+import os
 from streamlit_option_menu import option_menu
 
 # Inisialisasi MediaPipe untuk deteksi wajah
