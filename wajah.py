@@ -251,6 +251,7 @@ def main():
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
         image_path = "images/analisis wajah.png"
         st.image(image_path, caption="Analisis Wajah", use_container_width=True),
+        st.empty()
         st.markdown('</div>', unsafe_allow_html=True)
         
 
