@@ -248,7 +248,7 @@ def main():
 
         # Menampilkan gambar di bagian bawah sidebar
         st.markdown('<div class="nav-footer">', unsafe_allow_html=True)
-        image_path = os.path.join("images", "analisis_wajah.png"),
+        image_path = os.path.join("images", "analisis_wajah.png")  # HAPUS KOMA
         st.image(image_path, caption="Analisis Wajah", use_column_width=True),
         st.markdown('</div>', unsafe_allow_html=True)
 
@@ -256,7 +256,7 @@ def main():
 
     # **Menampilkan logo hanya di halaman Home**
     if menu_id == "Home":
-        logo_path = "C:/Users/LENOVO/Desktop/Analisis_Wajah/logo udw.png"
+        logo_path = os.path.join("images", "logo_udw.png")
         try:
             st.image(logo_path, caption="Logo Universitas Dharma Wacana", use_container_width=True)
         except Exception:
